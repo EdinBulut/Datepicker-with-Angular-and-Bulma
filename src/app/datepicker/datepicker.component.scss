@@ -1,0 +1,13 @@
+@import "~bulma/css/bulma-calendar.min.css";
+.calendar .calendar-nav {
+    background-color: #4a4a4a;
+}
+.button.is-text {
+    color: #fff;
+    &:hover {
+        color: #4a4a4a;
+    }
+    &:focus {
+        color: #4a4a4a !important;
+    }
+}
